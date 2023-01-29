@@ -2,7 +2,5 @@
 </script>
 
 <template>
- 
-    <h1>home</h1>
-
+<p>coaching-and-mentoring</p>
 </template>

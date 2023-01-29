@@ -2,7 +2,5 @@
 </script>
 
 <template>
- 
-    <h1>home</h1>
-
+<p>leading-the-sales-team</p>
 </template>

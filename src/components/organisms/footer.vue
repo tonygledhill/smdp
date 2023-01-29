@@ -2,7 +2,5 @@
 </script>
 
 <template>
- 
-    <h1>home</h1>
-
+    <h1>footer</h1>
 </template>
