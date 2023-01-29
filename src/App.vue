@@ -13,5 +13,8 @@ import Footer from './components/organisms/footer.vue'
 </template>
 
 <style scoped>
-
+main{
+  display: block;
+  width: 100%;
+}
 </style>

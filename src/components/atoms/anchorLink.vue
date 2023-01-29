@@ -2,10 +2,11 @@
 
 defineProps<{
   linkUrl: string,
-  linkTitle: string
+  linkTitle: string,
+  cssClass: string
 }>()
 </script>
 
 <template>
-  <a :href=linkUrl>{{ linkTitle}}</a>
+  <a :href=linkUrl :class=cssClass>{{ linkTitle}}</a>
 </template>
