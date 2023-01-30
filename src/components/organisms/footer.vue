@@ -1,7 +1,22 @@
 <script setup lang="ts">
-    import FooterNavigation from '../molecules/footerNavigation.vue';
+    import FooterLinks from '../molecules/footerLinks.vue';
+    import FooterAddress from '../molecules/footerAddress.vue';
 </script>
 
 <template>
-
+    <footer>
+        <div class="container">
+            <FooterAddress />
+            <FooterLinks />
+        </div>
+    </footer> 
 </template>
+
+<style scoped>
+    footer{
+        background-color: lightgrey;
+        bottom: 0;
+        width:100%;
+        height:100px;
+    }
+ </style>
