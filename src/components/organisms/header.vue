@@ -4,20 +4,16 @@
 </script>
 
 <template>
-  <div class="navigation">
+  <header class="header">
     <Image imageSrc="/../src/assets/img/logo.jpg" altText="SMDP" />
     <MainNavigation />
-  </div>
+  </header>
 </template>
 
 <style scoped>
-@media (min-width: 1024px) {
-
-    .navigation{
-        width: 100%;
-        display:block;
-    }
-
-
+.header{
+  position: relative;
+  background-color: lightgrey;
+  padding: 1em;
 }
 </style>
