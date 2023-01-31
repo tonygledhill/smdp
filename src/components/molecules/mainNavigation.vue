@@ -63,6 +63,10 @@
     display:block;
 }
 
+.mega-menu:hover{
+    display: block;
+}
+
 .menu{
     list-style: none;
     margin: 0;
@@ -81,11 +85,11 @@
     left: 0;
     right: 0;
     z-index: 1;
-    background-color: green;
+    background-color: white;
+
 }
 
 .mega-menu-container{
-    width:80%;
     margin: 0 auto;
 }
 .row{
@@ -98,5 +102,8 @@
     padding: 1rem;
 }
 
+.col-sm-4 a{
+    text-decoration: none;
+}
 
 </style>
