@@ -17,6 +17,9 @@
         background-color: lightgrey;
         bottom: 0;
         width:100%;
-        height:100px;
+        min-height:1rem;
+        position: relative;  
+        flex-grow: 0;
+        flex-shrink: 0;
     }
  </style>
