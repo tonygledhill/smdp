@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import ParagraphBlock from '../atoms/paragraphBlock.vue';
+import ParagraphBlock from '../atoms/paragraph.vue';
     defineProps<{
       content: string
     }>()

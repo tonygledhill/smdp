@@ -5,17 +5,16 @@
 
 <template>
   <header class="header">
-    <div class="container">
+    <a href ="/">
       <Image imageSrc="/../src/assets/img/logo.jpg" altText="SMDP" />
-      <MainNavigation />
-    </div>
+    </a>
+    <MainNavigation />
   </header>
 </template>
 
 <style scoped>
 .header{
   position: relative;
-  background-color: lightgrey;
   display: flex;
 }
 </style>

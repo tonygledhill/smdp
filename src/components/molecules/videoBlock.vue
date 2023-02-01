@@ -7,13 +7,11 @@
 
 <template>
     <div class="videoblock">
-        <div class="container">
             <h1>{{ title }}</h1>     
             <video width="320" height="240" controls>
             <source :src="videoSrc" type="video/mp4">
             Your browser does not support the video tag.
             </video>
-        </div>
     </div>
 </template>
 
